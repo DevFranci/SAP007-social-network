@@ -1,0 +1,54 @@
+#footer-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+#footer-bar form {
+  width: 70px;
+  height: 40px;
+  align-self: center;
+  margin-bottom: 0;
+}
+#footer-bar button {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(61, 154, 226, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialog > form {
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modalDialog h2 {
+  color: #3d9ae2;
+}

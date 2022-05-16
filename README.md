@@ -2,18 +2,16 @@
 
 ## Índice
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Entrega](#7-entrega)
-* [8. Guias, dicas e leituras
-  complementares](#8-guias-dicas-e-leituras-complementares)
+- [1. Prefácio](#1-prefácio)
+- [2. Resumo do projeto](#2-resumo-do-projeto)
+- [3. Histórias de usuários UX e UI](#3-histórias-de-usuários-ux-e-ui)
+- [4. Protótipo Figma](#4-protótipo-figma)
+- [5. Critérios de aceitação MVP e Definiçãode pronto](#5-criterios-de-aceitação-mínimos-do-projeto)
+- [6. Estrutura do projeto](#6-estrutura-do-projeto)
+- [7. Desenvolvedoras ](#7-desenvolvedoras)
+- [8. Considerações finais](#8-considerações-finais)
 
-***
+---
 
 ## 1. Prefácio
 
@@ -35,7 +33,7 @@ Neste projeto você construirá uma Rede Social sobre o que você e sua equipe
 decidirem. Pode ser, por exemplo, sobre alimentação saudável, feminismo,
 educação, saúde, energias renováveis, amantes das
 [Empanadas](https://pt.wikipedia.org/wiki/Empanada), de
-[Tacos](https://pt.wikipedia.org/wiki/Taco_(culin%C3%A1ria)), de
+[Tacos](<https://pt.wikipedia.org/wiki/Taco_(culin%C3%A1ria)>), de
 [Feijoada](https://pt.wikipedia.org/wiki/Feijoada), ou do que seja.
 
 Sua Rede Social terá que permitir à qualquer usuário criar uma conta de acesso,
@@ -55,175 +53,175 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Uso de HTML semântico**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [HTML semántico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
+  - [HTML semántico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
+  - [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+  </p></details>
 
 ### CSS
 
 - [ ] **Uso de seletores de CSS**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
+  - [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
+  - [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
+  </p></details>
 
 - [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
+  - [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/01-css/02-boxmodel-and-display)
+  - [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+  - [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+  - [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
+  - [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
+  </p></details>
 
 - [ ] **Uso de flexbox en CSS**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
+  - [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  - [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
+  - [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+  </p></details>
 
 - [ ] **Uso de CSS Grid Layout**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [A Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-  * [Grids - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
-</p></details>
+  - [A Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  - [Grids - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
+  </p></details>
 
 ### Web APIs
 
 - [ ] **Uso de seletores de DOM**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
+  - [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/02-dom/03-1-dom-methods-selection)
+  - [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
+  - [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
+  </p></details>
 
 - [ ] **Gerenciamento de eventos de DOM**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  * [El objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-</p></details>
+  - [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
+  - [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
+  - [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
+  - [El objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
+  </p></details>
 
 - [ ] **Manipulação dinâmica de DOM**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
-</p></details>
+  - [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+  - [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
+  - [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
+  - [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
+  - [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
+  - [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
+  </p></details>
 
 - [ ] **Routing (History API, evento hashchange, window.location)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Manipulando o histórico do navegador - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/History_API)
-</p></details>
+  - [Manipulando o histórico do navegador - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/History_API)
+  </p></details>
 
 ### JavaScript
 
 - [ ] **Manipular arrays (filter, map, sort, reduce)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Arrays](https://curriculum.laboratoria.la/pt/topics/javascript/04-arrays)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
+  - [Arrays](https://curriculum.laboratoria.la/pt/topics/javascript/04-arrays)
+  - [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+  - [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+  - [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  - [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+  - [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+  </p></details>
 
 - [ ] **Manipular objects (key | value)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/05-objects/01-objects)
-</p></details>
+  - [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/05-objects/01-objects)
+  </p></details>
 
 - [ ] **Diferenciar entre tipos de dados primitivos e não primitivos**
 
 - [ ] **Variáveis (declaração, atribuição, escopo)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/02-variables)
-</p></details>
+  - [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/01-values-variables-and-types)
+  - [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/02-variables)
+  </p></details>
 
 - [ ] **Uso de condicionais (if-else, switch, operador ternário)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
+  - [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/01-conditionals-and-loops)
+  - [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
+  </p></details>
 
 - [ ] **Uso de laços (for, for..of, while)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/02-loops)
-  * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
+  - [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/02-loops)
+  - [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
+  </p></details>
 
 - [ ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/03-functions)
-  * [Funções clásicas](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/01-classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/02-arrow)
-  * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
+  - [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/03-functions)
+  - [Funções clásicas](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/01-classic)
+  - [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/02-arrow)
+  - [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
+  </p></details>
 
 - [ ] **Testes unitários**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
+  - [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
+  </p></details>
 
 - [ ] **Testes assíncronos**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Testando Código Assíncrono - Documentação oficial](https://jestjs.io/docs/pt-BR/asynchronous)
-</p></details>
+  - [Testando Código Assíncrono - Documentação oficial](https://jestjs.io/docs/pt-BR/asynchronous)
+  </p></details>
 
 - [ ] **Mocking**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Simulações Manuais - Documentação oficial](https://jestjs.io/docs/pt-BR/manual-mocks)
-</p></details>
+  - [Simulações Manuais - Documentação oficial](https://jestjs.io/docs/pt-BR/manual-mocks)
+  </p></details>
 
 - [ ] **Uso ES modules**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
+  - [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
+  - [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
+  </p></details>
 
 - [ ] **Uso de linter (ESLINT)**
 
@@ -233,17 +231,17 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Uso de callbacks**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Função Callback - MDN](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)
-</p></details>
+  - [Função Callback - MDN](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)
+  </p></details>
 
 - [ ] **Promise**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [How to Write a JavaScript Promise - freecodecamp (em inglês)](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
-</p></details>
+  - [How to Write a JavaScript Promise - freecodecamp (em inglês)](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
+  </p></details>
 
 ### Git e GitHub
 
@@ -257,10 +255,10 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **GitHub: Implantação com GitHub Pages**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
+  - [Site oficial do GitHub Pages](https://pages.github.com/)
+  </p></details>
 
 - [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
 
@@ -284,43 +282,43 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Firebase Auth**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Primeiros passos com o Firebase Authentication em sites - Documentação oficial](https://firebase.google.com/docs/auth/web/start?hl=pt-BR)
-  * [Gerenciar usuários no Firebase (onAuthStateChanged) - Documentação oficial](https://firebase.google.com/docs/auth/web/manage-users?hl=pt-BR)
-</p></details>
+  - [Primeiros passos com o Firebase Authentication em sites - Documentação oficial](https://firebase.google.com/docs/auth/web/start?hl=pt-BR)
+  - [Gerenciar usuários no Firebase (onAuthStateChanged) - Documentação oficial](https://firebase.google.com/docs/auth/web/manage-users?hl=pt-BR)
+  </p></details>
 
 - [ ] **Firestore**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Firestore - Documentação oficial](https://firebase.google.com/docs/firestore?hl=pt-BR)
-  * [Regras de segurança do Firebase - Documentação oficial](https://firebase.google.com/docs/rules?hl=pt-BR)
-  * [Receber atualizações em tempo real com o Cloud Firestore - Documentação oficial](https://firebase.google.com/docs/firestore/query-data/listen?hl=pt-BR)
-</p></details>
+  - [Firestore - Documentação oficial](https://firebase.google.com/docs/firestore?hl=pt-BR)
+  - [Regras de segurança do Firebase - Documentação oficial](https://firebase.google.com/docs/rules?hl=pt-BR)
+  - [Receber atualizações em tempo real com o Cloud Firestore - Documentação oficial](https://firebase.google.com/docs/firestore/query-data/listen?hl=pt-BR)
+  </p></details>
 
 ## 4. Considerações gerais
 
-* Este projeto deve ser desenvolvido em trios.
+- Este projeto deve ser desenvolvido em trios.
 
-* A lógica do projeto deve estar implementada completamente em JavaScript
+- A lógica do projeto deve estar implementada completamente em JavaScript
   (ES6+), HTML e CSS :smiley:. Para este projeto **não está permitido** o uso de
   _frameworks_ ou bibliotecas de CSS e JS.
 
-* A divisão e organização do trabalho deve permitir, sem exceção, que **cada
+- A divisão e organização do trabalho deve permitir, sem exceção, que **cada
   integrante** da equipe pratique a aprendizagem de tudo que está envolvido em
   **cada história**. _Não dividam o trabalho como em uma fábrica._
 
-* Está avançando em seus projetos com alguma fluidez e sem grandes problemas?
+- Está avançando em seus projetos com alguma fluidez e sem grandes problemas?
   Seja generosa com suas parceiras, deixe-as aprender e praticar sem restrições,
   mesmo que demore um pouco mais. Aproveite para _mentorá-las_, para fazer _pair
   programming_. Uma das melhores formas de aprender é explicar verbalmente.
 
-* Está sentindo dificuldade e para você é mais difícil de avançar? Não fique com
+- Está sentindo dificuldade e para você é mais difícil de avançar? Não fique com
   as partes "fáceis" do projeto. Converse, negocie, busque sua oportunidade de
   praticar e aprender o que é mais difícil para você.
 
-* Vocês apenas poderão trabalhar em uma história por vez. Não avancem para a
+- Vocês apenas poderão trabalhar em uma história por vez. Não avancem para a
   próxima sem completar a anterior. As histórias apenas são concluídas quando se
   completam **todos** os critérios de aceitação + **toda** sua definição de
   pronto.
@@ -341,8 +339,8 @@ No `README.md`, conte-nos brevemente como você mapeou as necessidades dos seus
 usuários e como você chegou à definição final do seu produto. É importante que
 detalhe:
 
-* Quem são os principais usuários do produto.
-* Qual problema o produto resolve/para que ele serve para esses usuários.
+- Quem são os principais usuários do produto.
+- Qual problema o produto resolve/para que ele serve para esses usuários.
 
 ### 5.3 Histórias de usuário
 
@@ -350,10 +348,10 @@ Depois de entender as necessidades de seus usuários, escreva as Histórias de
 Usuário. Elas representam tudo o que ele precisa fazer/ver na Rede Social. Cada
 uma de suas histórias de usuário deve possuir:
 
-* **Critérios de aceitação:** tudo o que deve acontecer para satisfazer as
+- **Critérios de aceitação:** tudo o que deve acontecer para satisfazer as
   necessidades do usuário.
 
-* **Definição de pronto:** todos os aspectos técnicos que devem ser atendidos
+- **Definição de pronto:** todos os aspectos técnicos que devem ser atendidos
   para que, como equipe, saibam que essa história está finalizada e pronta para
   ser publicada. **Todas** suas histórias de usuário (com exceções), devem
   incluir esses aspectos em sua definição de pronto (além de tudo o que precisa
@@ -386,26 +384,26 @@ H.U.:
 
 #### Criação e login de conta de usuário
 
-* _Login_ com Firebase:
+- _Login_ com Firebase:
   - Para o _login_ e postagens na timeline, você pode usar o
     [Firebase](https://firebase.google.com/products/database/)
   - O usuário deve poder criar uma conta de acesso ou autenticar-se com conta de
     e-mail e senha e também com uma conta do Google.
-* Validações:
+- Validações:
   - Somente usuários com contas válidas têm acesso permitido.
   - Não haver usuários repetidos.
   - A conta do usuário deve ser um email válido.
   - O que o usuário digita no campo de senha (_input_) deve ser secreto.
-* Comportamento:
+- Comportamento:
   - Quando o formulário de registro ou login é enviado, ele deve ser validado.
   - Se houver erros, mensagens descritivas devem ser exibidas para ajudar o
     usuário.
 
 #### Timeline/linha do tempo
 
-* Validações:
+- Validações:
   - Ao publicar, deve ser validado se há conteúdo no _input_.
-* Comportamento:
+- Comportamento:
   - Ao recarregar o aplicativo, é necessário verificar se o usuário está
     _logado_ antes de exibir o conteúdo,
   - Conseguir publicar um _post_.
@@ -421,29 +419,29 @@ H.U.:
 
 ### 5.7 Considerações técnicas sobre front-end
 
-* Separar a manipulação do DOM da lógica (separação de responsabilidades).
-* Ter várias telas. Para isso, seu aplicativo deve ser um [Single Page
+- Separar a manipulação do DOM da lógica (separação de responsabilidades).
+- Ter várias telas. Para isso, seu aplicativo deve ser um [Single Page
   Application
   (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
-* Alterar e persistir dados. Os dados que você adiciona ou modifica devem
+- Alterar e persistir dados. Os dados que você adiciona ou modifica devem
   persistir por todo o aplicativo. Recomendamos que você use o
   [Firebase](https://firebase.google.com/) para isso também.
 
 #### Testes unitários
 
-* Lembre-se de que não há _setup_ de **testes** definido, isso dependerá da
+- Lembre-se de que não há _setup_ de **testes** definido, isso dependerá da
   estrutura do seu projeto. Você não deve esquecer de pensar sobre os testes.
   Eles podem ajudar a definir a estrutura e sua lógica.
 
-* Os testes de unidade devem cobrir no mínimo 70% de _statements_, _functions_,
+- Os testes de unidade devem cobrir no mínimo 70% de _statements_, _functions_,
   _lines_ e _branches_.
 
 ### 5.8 Considerações técnicas UX
 
-* Faça pelo menos 2 entrevistas com os usuários.
-* Faça um protótipo de baixa fidelidade.
-* Verifique se a implementação do código segue as diretrizes do protótipo.
-* Faça sessões de teste de usabilidade com o produto em HTML.
+- Faça pelo menos 2 entrevistas com os usuários.
+- Faça um protótipo de baixa fidelidade.
+- Verifique se a implementação do código segue as diretrizes do protótipo.
+- Faça sessões de teste de usabilidade com o produto em HTML.
 
 ## 6. Hacker Edition
 
@@ -452,13 +450,13 @@ cumpriu todos os requisitos acima e sobrou tempo, tente concluí-las. Dessa
 forma, você pode aprofundar e/ou exercitar mais os objetivos de aprendizagem do
 projeto.
 
-* Criar posts com imagens.
-* Procurar usuários, adicionar e excluir "amigos".
-* Definir a privacidade de _posts_ (público ou apenas para amigos).
-* Permitir ver na linha do tempo de usuários "não amigos" apenas os posts
+- Criar posts com imagens.
+- Procurar usuários, adicionar e excluir "amigos".
+- Definir a privacidade de _posts_ (público ou apenas para amigos).
+- Permitir ver na linha do tempo de usuários "não amigos" apenas os posts
   públicos.
-* Permitir comentar ou responder a uma postagem.
-* Editar perfil.
+- Permitir comentar ou responder a uma postagem.
+- Editar perfil.
 
 ## 7. Entrega
 
@@ -466,7 +464,7 @@ O projeto será entregue subindo seu código no GitHub (`commit` /`push`) e a
 interface será hospedada usando o GitHub pages ou outro serviço de hospedagem
 que você pode ter encontrado ao longo do caminho.
 
-***
+---
 
 ## 8. Guias, dicas e leituras complementares
 
@@ -509,13 +507,13 @@ existentes. Esses dados podem ser salvos remotamente usando o
 
 Outras:
 
-* [Mobile
+- [Mobile
   First](https://tableless.com.br/mobile-first-a-arte-de-pensar-com-foco/)
-* [Mobile First Is NOT Mobile Only - Nielsen Norman
+- [Mobile First Is NOT Mobile Only - Nielsen Norman
   Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
-* [Flexbox - CSS
+- [Flexbox - CSS
   Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Módulos:
+- [Módulos:
   Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-* [Módulos:
+- [Módulos:
   Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
