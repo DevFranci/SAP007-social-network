@@ -39,7 +39,6 @@ export default () => {
     `;
   container.innerHTML = infoLogin;
   container.addEventListener('submit', (event) => {
-    console.log(event);
     event.preventDefault();
     if (event.submitter != null) {
       if (event.submitter.id === 'btn-login') {
@@ -54,7 +53,6 @@ export default () => {
           .then((userCredential) => {
             const user = userCredential.user;
             window.location.hash = '#feed';
-            console.log(user);
           })
           .catch((error) => {
             const errorCode = error.code;
