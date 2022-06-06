@@ -1,9 +1,9 @@
-# Criando uma Rede Social
+# Zazen Social
 
 ## Índice
 
-- [1. Prefácio](#1-prefácio)
-- [2. Resumo do projeto](#2-resumo-do-projeto)
+- [1. Definição do produto](#1-Definição-do-produto)
+- [2. Planning do projeto ](#2-Planning-do-projeto)
 - [3. Histórias de usuários UX e UI](#3-histórias-de-usuários-ux-e-ui)
 - [4. Protótipo Figma](#4-protótipo-figma)
 - [5. Critérios de aceitação MVP e Definiçãode pronto](#5-criterios-de-aceitação-mínimos-do-projeto)
@@ -13,289 +13,35 @@
 
 ---
 
-## 1. Prefácio
+## 1. Definição do produto
 
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. As redes sociais
-invadiram nossas vidas. Nós as amamos ou odiamos, e muitas pessoas não conseguem
-viver sem elas.
+A ZAZEN é uma rede social desenvolvida com o tema meditação, é totalmente voltada a pessoas que já meditam e querem compartilhar suas experiências ou pessoas que tem interesse em aprender mais sobre meditação e outros temas que a englobam.
+
+A intenção é apresentar para o público uma aplicação intuitiva e aconchegante que possa promover uma ótima experiência de usuário.
 
 ![adem-ay-Tk9m_HP4rgQ-unsplash](https://user-images.githubusercontent.com/110297/135544666-4efa54f1-4ff6-4c4c-b398-6df04ef56117.jpg)
 
-Há redes sociais de todo tipo para todos os tipos de interesse. Por exemplo: em
-uma rodada de financiamento com investidores, foi apresentada uma rede social
-para químicos onde os usuários podem publicar artigos a respeito de suas
-pesquisas, comentar os artigos de seus colegas e filtrar artigos de acordo com
-determinadas tags ou popularidade, mais recente ou mais comentado.
+## 2. Planning do projeto
 
-## 2. Resumo do projeto
+Neste projeto nós utilizamos o trello para seguir planejamento em tempo real.
 
-Neste projeto você construirá uma Rede Social sobre o que você e sua equipe
-decidirem. Pode ser, por exemplo, sobre alimentação saudável, feminismo,
-educação, saúde, energias renováveis, amantes das
-[Empanadas](https://pt.wikipedia.org/wiki/Empanada), de
-[Tacos](<https://pt.wikipedia.org/wiki/Taco_(culin%C3%A1ria)>), de
-[Feijoada](https://pt.wikipedia.org/wiki/Feijoada), ou do que seja.
+Fizemos as divisões de tarefas, focando nos objetivos de aprendizagem para alcançarmos todas juntas.
+Setamos as tarefas por sprint sempre priorizando as OAs:
 
-Sua Rede Social terá que permitir à qualquer usuário criar uma conta de acesso,
-logar-se com ela, criar, editar, deletar e dar _likes_ em publicações.
+- Sua Rede Social terá que permitir à qualquer usuário criar uma conta de acesso,
+  logar-se com ela, criar, editar, deletar e dar _likes_ em publicações.
 
-O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
-Application
-(SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
-[_responsiva_](https://curriculum.laboratoria.la/pt/topics/css/02-responsive) (com mais de uma tela/ página) na
-qual seja possível **ler e escrever dados**.
+- O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
+  Application
+  (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
+  [_responsiva_](https://curriculum.laboratoria.la/pt/topics/css/02-responsive) (com mais de uma tela/ página) na
+  qual seja possível **ler e escrever dados**.
 
-## 3. Objetivos de aprendizagem
+## 3. Histórias de usuários UX e UI
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+Elaboramos vários protótipos de baixa fidelidade para nos guiar com as histórias de usuários e assim ir desenvolvendo o protótipo de alta fidelidade no Figma, nos baseando nas protopersonas de nosso produto.
 
-### HTML
-
-- [ ] **Uso de HTML semântico**
-
-    <details><summary>Links</summary><p>
-
-  - [HTML semántico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
-  - [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-  </p></details>
-
-### CSS
-
-- [ ] **Uso de seletores de CSS**
-
-    <details><summary>Links</summary><p>
-
-  - [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
-  - [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-  </p></details>
-
-- [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
-
-    <details><summary>Links</summary><p>
-
-  - [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/01-css/02-boxmodel-and-display)
-  - [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  - [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  - [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  - [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-  </p></details>
-
-- [ ] **Uso de flexbox en CSS**
-
-    <details><summary>Links</summary><p>
-
-  - [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  - [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  - [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-  </p></details>
-
-- [ ] **Uso de CSS Grid Layout**
-
-    <details><summary>Links</summary><p>
-
-  - [A Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-  - [Grids - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
-  </p></details>
-
-### Web APIs
-
-- [ ] **Uso de seletores de DOM**
-
-    <details><summary>Links</summary><p>
-
-  - [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/02-dom/03-1-dom-methods-selection)
-  - [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  - [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-  </p></details>
-
-- [ ] **Gerenciamento de eventos de DOM**
-
-    <details><summary>Links</summary><p>
-
-  - [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  - [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  - [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  - [El objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-  </p></details>
-
-- [ ] **Manipulação dinâmica de DOM**
-
-    <details><summary>Links</summary><p>
-
-  - [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  - [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  - [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  - [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
-  - [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  - [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
-  </p></details>
-
-- [ ] **Routing (History API, evento hashchange, window.location)**
-
-    <details><summary>Links</summary><p>
-
-  - [Manipulando o histórico do navegador - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/History_API)
-  </p></details>
-
-### JavaScript
-
-- [ ] **Manipular arrays (filter, map, sort, reduce)**
-
-    <details><summary>Links</summary><p>
-
-  - [Arrays](https://curriculum.laboratoria.la/pt/topics/javascript/04-arrays)
-  - [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  - [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  - [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  - [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  - [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-  </p></details>
-
-- [ ] **Manipular objects (key | value)**
-
-    <details><summary>Links</summary><p>
-
-  - [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/05-objects/01-objects)
-  </p></details>
-
-- [ ] **Diferenciar entre tipos de dados primitivos e não primitivos**
-
-- [ ] **Variáveis (declaração, atribuição, escopo)**
-
-    <details><summary>Links</summary><p>
-
-  - [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/01-values-variables-and-types)
-  - [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/02-variables)
-  </p></details>
-
-- [ ] **Uso de condicionais (if-else, switch, operador ternário)**
-
-    <details><summary>Links</summary><p>
-
-  - [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  - [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-  </p></details>
-
-- [ ] **Uso de laços (for, for..of, while)**
-
-    <details><summary>Links</summary><p>
-
-  - [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/02-loops)
-  - [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-  </p></details>
-
-- [ ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
-
-    <details><summary>Links</summary><p>
-
-  - [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/03-functions)
-  - [Funções clásicas](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/01-classic)
-  - [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/02-arrow)
-  - [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-  </p></details>
-
-- [ ] **Testes unitários**
-
-    <details><summary>Links</summary><p>
-
-  - [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-  </p></details>
-
-- [ ] **Testes assíncronos**
-
-    <details><summary>Links</summary><p>
-
-  - [Testando Código Assíncrono - Documentação oficial](https://jestjs.io/docs/pt-BR/asynchronous)
-  </p></details>
-
-- [ ] **Mocking**
-
-    <details><summary>Links</summary><p>
-
-  - [Simulações Manuais - Documentação oficial](https://jestjs.io/docs/pt-BR/manual-mocks)
-  </p></details>
-
-- [ ] **Uso ES modules**
-
-    <details><summary>Links</summary><p>
-
-  - [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  - [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-  </p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descritivos (Nomenclatura | Semântica)**
-
-- [ ] **Diferença entre expression e statements**
-
-- [ ] **Uso de callbacks**
-
-    <details><summary>Links</summary><p>
-
-  - [Função Callback - MDN](https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function)
-  </p></details>
-
-- [ ] **Promise**
-
-    <details><summary>Links</summary><p>
-
-  - [How to Write a JavaScript Promise - freecodecamp (em inglês)](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
-  </p></details>
-
-### Git e GitHub
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Implantação com GitHub Pages**
-
-    <details><summary>Links</summary><p>
-
-  - [Site oficial do GitHub Pages](https://pages.github.com/)
-  </p></details>
-
-- [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-- [ ] **GitHub: Organização pelo Github (projects | issues | labels | milestones | releases)**
-
-### user-centricity
-
-- [ ] **Desenhar a aplicação pensando e entendendo a usuária**
-
-### product-design
-
-- [ ] **Criar protótipos para obter feedback e iterar**
-
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-### research
-
-- [ ] **Planejar e executar testes de usabilidade**
-
-### Firebase
-
-- [ ] **Firebase Auth**
-
-    <details><summary>Links</summary><p>
-
-  - [Primeiros passos com o Firebase Authentication em sites - Documentação oficial](https://firebase.google.com/docs/auth/web/start?hl=pt-BR)
-  - [Gerenciar usuários no Firebase (onAuthStateChanged) - Documentação oficial](https://firebase.google.com/docs/auth/web/manage-users?hl=pt-BR)
-  </p></details>
-
-- [ ] **Firestore**
-
-    <details><summary>Links</summary><p>
-
-  - [Firestore - Documentação oficial](https://firebase.google.com/docs/firestore?hl=pt-BR)
-  - [Regras de segurança do Firebase - Documentação oficial](https://firebase.google.com/docs/rules?hl=pt-BR)
-  - [Receber atualizações em tempo real com o Cloud Firestore - Documentação oficial](https://firebase.google.com/docs/firestore/query-data/listen?hl=pt-BR)
-  </p></details>
+### Protótipos de baixa fidelidade
 
 ## 4. Considerações gerais
 

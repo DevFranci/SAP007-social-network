@@ -1,6 +1,7 @@
 import {
   getAuth,
   createUserWithEmailAndPassword,
+  updateProfile,
 } from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js';
 
 export default () => {
@@ -20,7 +21,7 @@ export default () => {
                 <form class="form">
                     <label class="label-input">
                         <i class="fa-regular fa-user icon-modify"></i>
-                        <input type="text" placeholder="Name">
+                        <input id="input-name" type="text" placeholder="Name">
                     </label>
                     <label class="label-input">
                         <i class="fa-regular fa-envelope icon-modify"></i>
@@ -42,6 +43,7 @@ export default () => {
     const auth = getAuth();
     const email = document.querySelector('#input-email').value;
     const password = document.querySelector('#input-password').value;
+    const name = document.querySelector('#input-name').value;
     if (email === '' || password === '') {
       alert('Please fill all register fields');
       return;
@@ -50,6 +52,9 @@ export default () => {
       .then((userCredential) => {
         const user = userCredential.user;
         console.log(user);
+        updateProfile(user, {
+          displayName: name,
+        });
       })
       .catch((error) => {
         const errorCode = error.code;

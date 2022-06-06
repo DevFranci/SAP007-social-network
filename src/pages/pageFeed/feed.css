@@ -1,3 +1,82 @@
+.header-feed {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 29px;
+  color: #3d9ae2;
+  font-weight: bold;
+  background: white;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 1000;
+}
+.header-feed > div {
+  font-weight: bold;
+  background: #3d9ae2;
+  color: white;
+  height: 100%;
+  padding: 15px;
+}
+.header-feed > form {
+  padding: 15px;
+}
+.post-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+.card {
+  width: 80%;
+}
+.post-user {
+  background: #3d9ae2;
+}
+.post-user > header {
+  background-color: #3d9ae2;
+  color: white;
+  padding: 10px 10px 10px 0px;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+}
+.post-user > main {
+  min-height: 143px;
+  margin: 10px;
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.post-user > main > p {
+  margin-left: 20px;
+}
+.post-user > footer {
+  background: white;
+  padding-top: 20px;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding-top: 6px;
+}
+.post-user > footer > div {
+  border: 2px solid #3d9ae2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3d9ae2;
+  padding: 12px 0 12px 0;
+  border-radius: 6px;
+}
+#btn-like {
+  background: white;
+  border: none;
+  margin-left: 5px;
+  font-size: 20px;
+  color: #3d9ae2;
+  cursor: pointer;
+}
+
 #footer-bar {
   position: fixed;
   bottom: 0;
@@ -6,6 +85,7 @@
   display: flex;
   justify-content: center;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: white;
 }
 #footer-bar form {
   width: 70px;
@@ -36,7 +116,32 @@
   flex-direction: column;
   justify-content: center;
 }
-
+.post-textarea {
+  width: 100%;
+  border: 2px solid #3d9ae2;
+  resize: none;
+  color: #3d9ae2;
+}
+.post-textarea::placeholder {
+  font-size: 20px;
+  color: #255f8c;
+  font-size: 20px;
+}
+#post-textarea:focus-visible {
+  outline: 2px solid #3d9ae2;
+}
+.container-btns {
+  display: flex;
+  height: 35px;
+  margin: 25px;
+}
+#btn-post {
+  margin-right: 10px;
+}
+#btn-cancel {
+  height: 35px;
+  line-height: 32px;
+}
 .active {
   opacity: 1;
   pointer-events: auto;
