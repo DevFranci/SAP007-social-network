@@ -28,58 +28,31 @@ Neste projeto nós utilizamos o trello para seguir planejamento em tempo real.
 Fizemos as divisões de tarefas, focando nos objetivos de aprendizagem para alcançarmos todas juntas.
 Setamos as tarefas por sprint sempre priorizando as OAs:
 
-- Sua Rede Social terá que permitir à qualquer usuário criar uma conta de acesso,
-  logar-se com ela, criar, editar, deletar e dar _likes_ em publicações.
-
-- O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
-  Application
-  (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
-  [_responsiva_](https://curriculum.laboratoria.la/pt/topics/css/02-responsive) (com mais de uma tela/ página) na
-  qual seja possível **ler e escrever dados**.
-
 ## 3. Histórias de usuários UX e UI
 
-Elaboramos vários protótipos de baixa fidelidade para nos guiar com as histórias de usuários e assim ir desenvolvendo o protótipo de alta fidelidade no Figma, nos baseando nas protopersonas de nosso produto.
+Elaboramos vários protótipos de baixa fidelidade no papel para nos guiar com as histórias de usuários e assim ir desenvolvendo o protótipo de alta fidelidade no Figma, nos baseando nas protopersonas de nosso produto.
 
 ### Protótipos de baixa fidelidade
 
+### Protótipos de alta fidelidade desenvolvido no Figma
+
 ## 4. Considerações gerais
 
-- Este projeto deve ser desenvolvido em trios.
+- Este projeto foi desenvolvido em dupla compostas por:
 
-- A lógica do projeto deve estar implementada completamente em JavaScript
-  (ES6+), HTML e CSS :smiley:. Para este projeto **não está permitido** o uso de
-  _frameworks_ ou bibliotecas de CSS e JS.
+Ana Clara Freitas e Franciele Mesquita
 
-- A divisão e organização do trabalho deve permitir, sem exceção, que **cada
-  integrante** da equipe pratique a aprendizagem de tudo que está envolvido em
-  **cada história**. _Não dividam o trabalho como em uma fábrica._
-
-- Está avançando em seus projetos com alguma fluidez e sem grandes problemas?
-  Seja generosa com suas parceiras, deixe-as aprender e praticar sem restrições,
-  mesmo que demore um pouco mais. Aproveite para _mentorá-las_, para fazer _pair
-  programming_. Uma das melhores formas de aprender é explicar verbalmente.
-
-- Está sentindo dificuldade e para você é mais difícil de avançar? Não fique com
-  as partes "fáceis" do projeto. Converse, negocie, busque sua oportunidade de
-  praticar e aprender o que é mais difícil para você.
-
-- Vocês apenas poderão trabalhar em uma história por vez. Não avancem para a
-  próxima sem completar a anterior. As histórias apenas são concluídas quando se
-  completam **todos** os critérios de aceitação + **toda** sua definição de
-  pronto.
-
-Para começar, você precisará criar um _fork_ e _clone_ deste repositório.
-
-## 5. Critérios de aceitação mínimos do projeto
-
-### 5.1 Boilerplate
+### 5.1 Boilerplate testes
 
 Este projeto não inclui um _boilerplate_, portanto você terá que definir a
 estrutura de pastas e escrever seus próprios testes unitários (_tests_). Para
 isso, você pode guiar-se por meio de projetos anteriores.
 
 ### 5.2 Definição do produto
+
+Nós mapeamos as necessidades dos nossos usuários conforme fomos avançando nas histórias de usuários, fizemos as histórias de cadastro, login, login com Google.
+E definimos qual problematica o nosso produto resolve:
+Basicamente o fato é que a comunidade que faz meditação, e tem interesse em assuntos de espiritualidade e bem estar pessoal é muito grande e esta despersas em grupos aonde é permitido um assunto por
 
 No `README.md`, conte-nos brevemente como você mapeou as necessidades dos seus
 usuários e como você chegou à definição final do seu produto. É importante que
